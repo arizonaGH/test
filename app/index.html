@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="xzApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="image/favicon.ico">
+
+    <title>鑫昭集团</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="basic.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+        <nav class="navbar navbar-default navbar-fixed-top nav-margin">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="image/xz.png" style="width:100px;margin-top:-40px;">
+                    </a>
+                    <p class="navbar-text" style="font-size: 20px;color: #494992;margin-left:0px;line-height:1;">鑫昭集团</p>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" style="margin-left:100px;">
+                      <li class="active"><a href="#!/home">首页</a></li>
+                      <li><a href="#!/blank">进出口贸易</a></li>
+                      <li><a href="#!/blank">私人定制</a></li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">教育规划<span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#!/education/overseas">海外教育</a></li>
+                            <li><a href="#!/blank">上海教育</a></li>
+                          </ul>
+                      </li>
+                      <li><a href="vacation.html">国际金融咨询</a></li>
+                      <li><a href="#!/blank">海外置业</a></li>
+                      <li><a href="#!/blank">项目开发</a></li>
+                      <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">关于我们<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="aboutus.html">香港鑫昭集团</a></li>
+                              <li><a href="contactus.html">联系我们</a></li>
+                            </ul>
+                      </li>
+                      
+                    </ul>
+                  </div><!--/.nav-collapse -->
+                </div>
+              </nav>
+
+
+    <!-- <div class="subtitle">
+            <ul class="nav navbar-nav">
+                    <li id="menu" role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                  </ul>
+    </div> -->
+    <!-- Carousel
+    ================================================== -->
+
+
+
+    <div ng-view></div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-2 col-md-2 col-sm-4 footer__item">
+                <h4 class="footer__title">网站链接</h4>
+                <ul class="footer__list">
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Features</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Integrations</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Slack Bot</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Pricing</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Demo</a>
+                  </li>
+
+                </ul><!-- footer__list -->
+              </div><!-- col -->
+
+              <div class="col-lg-2 col-md-2 col-sm-4 footer__item">
+                <h4 class="footer__title">合作伙伴</h4>
+                <ul class="footer__list">
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Blog</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Terms of Service</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Privacy Policy</a>
+                  </li>
+
+                </ul><!-- footer__list -->
+              </div><!-- col -->
+
+              <div class="col-lg-2 col-md-2 col-sm-4 footer__item">
+                <h4 class="footer__title">Help</h4>
+                <ul class="footer__list">
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">User Guide</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Forum</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Gitter</a>
+                  </li>
+
+                  <li class="footer__list-item">
+                    <a data-track="" data-track-location="footer" href="#" class="footer__list-link">Slack</a>
+                  </li>
+
+                </ul><!-- footer__list -->
+              </div><!-- col -->
+
+
+              <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-12 footer__item">
+                <h3 class="footer__title">Newsletter</h3>
+                <p>Subscribe to get product updates about us.</p>
+
+                <form class="form-inline footer__form newsletter-form">
+                  <div class="form-group">
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_a905176d2294593084d5264e5_53ca028761" tabindex="-1" value=""></div>
+                    <input type="email" class="form-control" id="mc-email" name="EMAIL" placeholder="Email address">
+                  </div>
+                  <button type="submit" class="btn btn-danger btn-small">Subscribe</button>
+                  <label for="mc-email" class="control-label"></label>
+                </form>
+
+                <ul class="footer__list footer__list--social">
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                      <i class="fa fa-github-square" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#" class="footer__list-link">
+                      <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    </a>
+                  </li>
+                </ul><!-- footer__list -->
+              </div><!-- col -->
+            </div><!-- row -->
+          </div><!-- container -->
+        </footer>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="view_home/view_home.js"></script>
+    <script src="view_blank/view_blank.js"></script>
+    <script src="view_education/view_education.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
